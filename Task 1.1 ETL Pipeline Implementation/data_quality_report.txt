@@ -1,1 +1,18 @@
 
+FLEXIMART DATA QUALITY REPORT
+=============================
+1. Number of records processed per file:
+   - Customers: 7
+   - Products: 7
+   - Sales: 8
+
+2. Number of duplicates removed:
+   - Total: total_dupes (Includes C001 and T001)
+
+3. Number of missing values handled:
+   - Fixed: 5 emails, 3 prices, and 1 stock count
+
+4. Number of records loaded successfully:
+   - Total database rows: 22
+
+Status: All quality issues resolved successfully.
