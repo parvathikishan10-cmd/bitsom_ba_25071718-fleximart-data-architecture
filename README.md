@@ -1,9 +1,9 @@
  #FlexiMart Data Architecture Project
 
-**Student Name:** Parvathi Gubba 
-**Student ID:** bitsom_ba_25071718
-**Email:** parvathikishan10@gmail.com  
-**Date:** January 8, 2026
+-**Student Name:** Parvathi Gubba 
+-**Student ID:** bitsom_ba_25071718
+-**Email:** parvathikishan10@gmail.com  
+-**Date:** January 8, 2026
 
 ## Project Overview
 I built a complete end-to-end data ecosystem for FlexiMart, transitioning from a raw Notion dataset to a structured Relational (SQL) database, a flexible NoSQL (MongoDB) catalog, and finally a high-performance Data Warehouse (Star Schema). This project demonstrates the full data lifecycle: ETL, schema design, NoSQL migration, and OLAP analytical reporting.
