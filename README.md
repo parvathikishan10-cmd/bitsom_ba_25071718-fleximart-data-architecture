@@ -76,5 +76,7 @@ Moving from SQL to NoSQL highlighted how document-based storage handles 'messy'
 retail data more efficiently than fixed tables.
 
 ## Challenges Faced
-** 1. Handling Heterogeneous Data**: Solved by using MongoDB's polymorphic documents.
-** 2. ACID vs Performance**: Balanced by keeping transactions in SQL and product displays in NoSQL.
+* **Schema Flexibility vs. Rigidity**: Managing diverse data types within a traditional fixed-schema environment created significant structural constraints. Transitioning to a document-oriented approach was necessary to resolve storage and query inefficiencies.
+* **Source Data Discrepancies**: The raw dataset presented several inconsistencies that required a robust validation and cleaning layer before the data was fit for production use.
+* **Granularity Determination**: Selecting the appropriate level of detail for the analytical fact tables required careful consideration to balance reporting depth with system performance.
+* **Relational Join Optimization**: Standard join operations on certain data types proved to be computationally expensive, requiring the implementation of optimized keys to streamline analytical query execution.
