@@ -13,9 +13,13 @@ I built a complete end-to-end data ecosystem for FlexiMart, transitioning from a
 
 ## Repository Structure
 ├── part1-database-etl/
+
 │   ├── etl_pipeline.py
+
 │   ├── schema_documentation.md
+
 │   ├── business_queries.sql
+
 │   └── data_quality_report.txt
 ├── part2-nosql/
 │   ├── nosql_analysis.md
