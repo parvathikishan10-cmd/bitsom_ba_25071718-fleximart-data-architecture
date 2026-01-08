@@ -71,7 +71,7 @@ mysql -u root -p fleximart_dw < part3-datawarehouse_and_analytics/analytics_quer
 3. Run the SQL scripts in `part3-datawarehouse_and_analytics/` to build the Data Warehouse.
 
 ## Key Learnings
-I learned the importance of **Schema Evolution**. 
+I learned the importance of Schema Evolution. 
 Moving from SQL to NoSQL highlighted how document-based storage handles 'messy' 
 retail data more efficiently than fixed tables.
 
